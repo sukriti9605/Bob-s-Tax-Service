@@ -1,0 +1,84 @@
+.navbar
+   {  background-color: #000000 !important;
+      padding:0px 0px!important;
+    }
+
+#map-container
+   {  height: 450px;
+      width: 100%;
+    }
+h3
+  {  color: #0080ff;
+     padding-bottom: 30px;
+  }
+
+h5
+  {  font-weight: bold;  }
+
+h6
+  { padding-bottom: 0px!important; }
+
+.navbar-toggler-icon{
+  size:20px!important
+  }
+.container-fluid
+  {
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-left: 100px;
+     padding-right: 100px;
+  }
+
+  /*Adding Pipe symbol to menu items*/
+  li>a:after
+  {
+    content: "|";
+    color: #0080ff;
+    padding-left: 10px;
+  }
+
+ li:last-child>a:after
+ {  content: "";  }
+
+.map-container
+ {  width: 100%!important;  }
+
+footer
+{  border-top: 1px solid white;  }
+
+.navbar-toggler{
+  size:30px;
+}
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+
+  .container-fluid{ padding: 40px;}
+  li>a:after{display:none;}
+
+   }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+
+.container-fluid{ padding: 40px;}
+li>a:after{display:none;}
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) {
+
+  .container-fluid{}
+  li>a:after{display:none;}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {
+
+  .container-fluid{}
+  li>a:after{display:none;}
+}
